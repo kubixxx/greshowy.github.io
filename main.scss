@@ -67,11 +67,10 @@ h1 {
 	font-family: 'Roboto Mono', monospace;
 	padding-bottom: 20px;
 }
-.ti {
+a {
+	color: white;  
 	text-decoration: none;
-	color: white;
-	font-size: 2px;
-}
+	}
 
 .square:hover {
 	background-color: #5c0086;
