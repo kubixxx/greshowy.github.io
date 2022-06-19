@@ -93,3 +93,43 @@ nav a:hover{
     color: white;
 }
 
+@media (min-width: 300px) {
+    nav{
+        display: none;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .about-me{
+        font-size: 7px;
+    }
+    
+    .ti{
+        font-size: 20px;
+    }
+}
+@media (min-width: 576px){
+    nav{
+        display: none;
+    }
+    h1{
+        font-size: 70px;
+    }
+    .about-me{
+        font-size: 14px;
+    }
+    
+    .ti{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px){
+    nav{
+        width: 100%;
+	position: absolute;
+	display: flex;
+	align-content: center;
+	justify-content: flex-end;
+	padding: 40px;
+    }
+}

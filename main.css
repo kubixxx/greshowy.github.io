@@ -109,4 +109,50 @@ h1 {
 nav a:hover {
   color: white;
 }
+
+@media (min-width: 300px) {
+  nav {
+    display: none;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .about-me {
+    font-size: 7px;
+  }
+  .ti {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  nav {
+    display: none;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .about-me {
+    font-size: 14px;
+  }
+  .ti {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    width: 100%;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding: 40px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
